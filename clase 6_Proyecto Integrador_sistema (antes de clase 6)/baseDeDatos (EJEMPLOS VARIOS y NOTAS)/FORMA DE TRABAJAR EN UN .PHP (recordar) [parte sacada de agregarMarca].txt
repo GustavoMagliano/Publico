@@ -1,0 +1,23 @@
+EN VEZ DE ESTO SIN USAR ELSE (que a él no le gusta por cuestion personal) USA EL ESQUEMA DEL PHP QUE ES MAS EFICIENTE
+
+<?php
+		if ($chequeo) {		
+?>
+			<div class="alert alert-success">	<!-- bootstrap VERDE -->
+				
+			</div>
+<?php 
+		} else {					// A EL PROFE NO LE GUSTA (porque sí) USAR ELSE
+?>
+			<div class="alert alert-danger">	<!-- bootstrap ROJO -->
+			
+			</div>
+<?php 
+		}
+?>
+
+
+FORMA DE TRABAJAR EN UN .PHP (recordar)
+----------------------------------------
+Primero pensar en que el HTML va a mostrar un cartel: armo <DIV>   </DIV> con mensaje y veo dónde iran cambios (texto,color)
+Luego pensar en el flujo de programa con PHP y hacer las variables metidas en los DIV y los if o lo que sea

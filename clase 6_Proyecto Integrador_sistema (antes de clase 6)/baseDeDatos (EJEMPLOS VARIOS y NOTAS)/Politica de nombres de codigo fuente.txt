@@ -1,0 +1,8 @@
+Dice que no es lo ideal pero permite hacer un criterio uniforme para el sistema
+
+¿tiene form?	accion		recurso (ó asset)
+--------------- --------------- --------------------	
+   form         Agregar		Marca		.php	<--- form en \extras			
+     -		agregar		Marca		.php	<--- VISTA. Ésta llama a funcion dentro de marca.php
+
+O sea formAgregarMarca.php y agregarMarca.php
